@@ -16,12 +16,12 @@ function App() {
         <Home />
       </Route>
 
-      <Route exact path="/" >
-        <Home />
+      <Route  path="/about" >
+        <About />
       </Route>
 
-      <Route exact path="/" >
-        <Home />
+      <Route path="/cocktail/:id" >
+        <SingleCocktail />
       </Route>
 
       <Route exact path="/" >
