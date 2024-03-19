@@ -19,8 +19,9 @@ const AppProvider = ({ children }) => {
 
       if(drinks) {
         const newCocktails = drinks.map(() => {
-          
-        })
+        const {idDrink, strDrink, strDrinkThumb, strAlchoholic}
+      })
+
       }
       else {
         setCocktails([])
