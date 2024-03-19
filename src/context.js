@@ -20,7 +20,7 @@ const AppProvider = ({ children }) => {
       if(drinks) {
         const newCocktails = drinks.map((item) => {
         const {idDrink, strDrink, strDrinkThumb, strAlchoholic, strGlass} = item
-        return {id: idDrink, name: strDrink, image: strDrinkThumb, info: strAlchoholic}
+        return {id: idDrink, name: strDrink, image: strDrinkThumb, info: strAlchoholic, glass: strGlass}
       })
 
       }
