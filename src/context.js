@@ -18,13 +18,17 @@ const AppProvider = ({ children }) => {
       const {drinks} = data
 
       if(drinks) {
-
+        const newCocktails = drinks.map(() => {
+          
+        })
       }
       else {
         setCocktails([])
       }
       
+      setLoading(false)
     } catch (error) {
+      setLoading(false)
       console.log(error);
     }
   }
