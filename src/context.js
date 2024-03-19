@@ -18,8 +18,8 @@ const AppProvider = ({ children }) => {
       const {drinks} = data
 
       if(drinks) {
-        const newCocktails = drinks.map(() => {
-        const {idDrink, strDrink, strDrinkThumb, strAlchoholic}
+        const newCocktails = drinks.map((item) => {
+        const {idDrink, strDrink, strDrinkThumb, strAlchoholic, strGlass} = item
       })
 
       }
