@@ -24,8 +24,8 @@ function App() {
         <SingleCocktail />
       </Route>
 
-      <Route exact path="/" >
-        <Home />
+      <Route path='*'>
+        <Error />
       </Route>
     </Switch>
    </Router>
