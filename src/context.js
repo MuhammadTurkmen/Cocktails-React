@@ -11,6 +11,7 @@ const AppProvider = ({ children }) => {
   
 
   const fetchDrinks = async () => {
+    setLoading(true)
     try {
       
     } catch (error) {
