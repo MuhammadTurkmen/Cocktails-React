@@ -9,6 +9,10 @@ const AppProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState('a')
   const [cocktails, setCocktails] = useState([])
   
+
+  
+
+
   return <AppContext.Provider value={{
     loading,
     searchTerm,
