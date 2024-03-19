@@ -9,6 +9,9 @@ const Navbar = () => {
         <Link to='/'>
           <img src={logo} alt="cocktail db logo" className='logo'/>
         </Link>
+        <ul className='nav-links'>
+
+        </ul>
       </div>
       <h2>navbar component</h2>
     </nav>
