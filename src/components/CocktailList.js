@@ -20,7 +20,9 @@ const CocktailList = () => {
         cocktails
       </h2>
       <div className='cocktails-center'>
+        {cocktails.map((item) => {
 
+        })}
       </div>
     </section>
   )
