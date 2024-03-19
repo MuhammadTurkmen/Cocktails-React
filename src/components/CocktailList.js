@@ -19,6 +19,9 @@ const CocktailList = () => {
       <h2 className='section-title'>
         cocktails
       </h2>
+      <div className='cocktails-center'>
+
+      </div>
     </section>
   )
 }
