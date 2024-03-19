@@ -16,6 +16,9 @@ const CocktailList = () => {
   
   return (
     <section className='section'>
+      <h2 className='section-title'>
+        cocktails
+      </h2>
       <h2>cocktail list component</h2>
     </section>
   )
