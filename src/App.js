@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom'
 // import pages
 import Home from './pages/Home'
 import About from './pages/About'
@@ -25,7 +25,7 @@ function App() {
       </Route>
 
       <Route path='*'>
-        <Error />
+        <Error   />
       </Route>
     </Switch>
    </Router>
