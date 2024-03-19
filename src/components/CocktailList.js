@@ -15,9 +15,9 @@ const CocktailList = () => {
   }
   
   return (
-    <div>
+    <section className='section'>
       <h2>cocktail list component</h2>
-    </div>
+    </section>
   )
 }
 
