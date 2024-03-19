@@ -10,7 +10,9 @@ const AppProvider = ({ children }) => {
   const [cocktails, setCocktails] = useState([])
   
 
-  
+  const fetchDrinks = async () => {
+    
+  }
 
 
   return <AppContext.Provider value={{
