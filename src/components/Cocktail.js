@@ -13,7 +13,7 @@ const Cocktail = ({image, name, id, info, glass}) => {
         <p>{info}</p> 
       </div>
     </article>
-  )
+  ) 
 }
 
 export default Cocktail
