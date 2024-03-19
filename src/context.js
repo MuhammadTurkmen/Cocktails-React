@@ -11,7 +11,11 @@ const AppProvider = ({ children }) => {
   
 
   const fetchDrinks = async () => {
-    
+    try {
+      
+    } catch (error) {
+      console.log(error);
+    }
   }
 
 
