@@ -9,8 +9,8 @@ const SingleCocktail = () => {
   const [cocktail, setCocktail] = React.useState(null)
   
   React.useEffect(() => {
-    
-  }, [])
+
+  }, [id])
   
   
   return (
