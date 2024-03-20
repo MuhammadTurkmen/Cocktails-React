@@ -10,6 +10,7 @@ const SearchForm = () => {
       <form className="search-form">
         <div className="form-control">
           <label htmlFor="name"> search your favorite cocktail</label>
+          <input type="text" id='name' ref={searchValue}/>
         </div>
       </form>
     </section>
