@@ -4,6 +4,11 @@ import { useGlobalContext } from '../context'
 const SearchForm = () => {
   const {setSearchTerm} = useGlobalContext()
   const searchValue = React.useRef('')
+  
+  
+  React.useEffect(() => {
+    
+  })
 
   const searchCocktail = () => {
     setSearchTerm(searchValue.current.value)
