@@ -14,7 +14,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/' element={<Home />} />
-      <Route path='/' element={<Home />} />
+      <Route path='cocktail/:id' element={<Home />} />
       <Route path='*' element={<Error />} />
     </Routes>
    </Router>
