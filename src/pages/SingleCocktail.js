@@ -11,7 +11,11 @@ const SingleCocktail = () => {
   React.useEffect(() => {
     setLoading(true) 
     async function getCocktail() {
-      
+      try {
+        const response = await fetch(`${url}${id}`)
+      } catch (error) {
+        
+      }
     }
   }, [id])
   
