@@ -20,6 +20,7 @@ const SingleCocktail = () => {
         else {
           setCocktail(null)
         }
+        setLoading(false)
       } catch (error) {
         console.log(error);
         setLoading(false)
