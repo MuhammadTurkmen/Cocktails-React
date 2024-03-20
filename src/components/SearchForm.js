@@ -7,8 +7,8 @@ const SearchForm = () => {
   
   
   React.useEffect(() => {
-    
-  })
+    searchValue.current.focus()
+  }, [])
 
   const searchCocktail = () => {
     setSearchTerm(searchValue.current.value)
