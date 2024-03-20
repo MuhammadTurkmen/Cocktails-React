@@ -21,7 +21,7 @@ const SingleCocktail = () => {
             strAlcoholic:info, 
             strCategory:category, 
             strGlass:glass, 
-            srtInstructions:instructions,
+            strInstructions:instructions,
             strIngredient1,
             strIngredient2,
             strIngredient3,
@@ -82,12 +82,12 @@ const SingleCocktail = () => {
             {info}
           </p>
           <p>
-            <span className='drink-data'>name : </span> 
-            {name}
+            <span className='drink-data'>glass : </span> 
+            {glass}
           </p>
           <p>
-            <span className='drink-data'>name : </span> 
-            {name}
+            <span className='drink-data'>instructions : </span> 
+            {instructions}
           </p>
         </div>
       </div>
