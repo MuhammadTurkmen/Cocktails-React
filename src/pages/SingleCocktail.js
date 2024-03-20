@@ -14,8 +14,10 @@ const SingleCocktail = () => {
       try {
         const response = await fetch(`${url}${id}`)
         const data = await response.json()
+         
       } catch (error) {
-        
+        console.log(error);
+        setLoading(false)
       }
     }
 
