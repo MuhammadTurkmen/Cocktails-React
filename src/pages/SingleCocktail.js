@@ -39,6 +39,7 @@ const SingleCocktail = () => {
           const newCocktails = {
             name, image, info, category, glass, instructions, ingredients,
           }
+          setCocktail(newCocktails)
         }
         else {
           setCocktail(null)
