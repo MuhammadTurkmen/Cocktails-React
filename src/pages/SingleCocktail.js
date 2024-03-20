@@ -54,6 +54,9 @@ const SingleCocktail = () => {
     getCocktail()
   }, [id])
   
+  if(loading) {
+    return <Loading />
+  }
   
   return (
     <div>
