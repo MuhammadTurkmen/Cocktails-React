@@ -18,6 +18,8 @@ const SingleCocktail = () => {
         
       }
     }
+
+    getCocktail()
   }, [id])
   
   
