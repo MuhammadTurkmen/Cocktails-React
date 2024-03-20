@@ -8,7 +8,9 @@ const SearchForm = () => {
   return (
     <section className='section search'>
       <form className="search-form">
-        
+        <div className="form-control">
+          
+        </div>
       </form>
     </section>
   )
