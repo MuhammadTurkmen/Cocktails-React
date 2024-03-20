@@ -5,6 +5,10 @@ const SearchForm = () => {
   const {setSearchTerm} = useGlobalContext()
   const searchValue = React.useRef('')
 
+  const searchCocktail = () => {
+    
+  }
+
   return (
     <section className='section search'>
       <form className="search-form">
