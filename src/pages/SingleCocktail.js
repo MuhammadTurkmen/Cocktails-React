@@ -70,9 +70,24 @@ const SingleCocktail = () => {
         <img src={image} alt={name} />
         <div className="drink-info">
           <p>
-            <span className='drink-data'>name : 
-              {name}
-            </span>
+            <span className='drink-data'>name : </span> 
+            {name}
+          </p>
+          <p>
+            <span className='drink-data'>category : </span> 
+            {name}
+          </p>
+          <p>
+            <span className='drink-data'>name : </span> 
+            {category}
+          </p>
+          <p>
+            <span className='drink-data'>name : </span> 
+            {name}
+          </p>
+          <p>
+            <span className='drink-data'>name : </span> 
+            {name}
           </p>
         </div>
       </div>
