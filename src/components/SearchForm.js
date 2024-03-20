@@ -6,7 +6,7 @@ const SearchForm = () => {
   const searchValue = React.useRef('')
 
   const searchCocktail = () => {
-    
+    setSearchTerm(searchValue.current.value)
   }
 
   return (
