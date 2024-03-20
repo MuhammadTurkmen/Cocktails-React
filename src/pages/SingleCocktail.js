@@ -75,11 +75,11 @@ const SingleCocktail = () => {
           </p>
           <p>
             <span className='drink-data'>category : </span> 
-            {name}
+            {category}
           </p>
           <p>
-            <span className='drink-data'>name : </span> 
-            {category}
+            <span className='drink-data'>info : </span> 
+            {info}
           </p>
           <p>
             <span className='drink-data'>name : </span> 
