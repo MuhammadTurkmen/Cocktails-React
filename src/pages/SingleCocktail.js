@@ -8,6 +8,11 @@ const SingleCocktail = () => {
   const [loading, setLoading] = React.useState(false)
   const [cocktail, setCocktail] = React.useState(null)
   
+  React.useEffect(() => {
+    
+  }, [])
+  
+  
   return (
     <div>
       <h2>{id}</h2>
