@@ -23,7 +23,7 @@ const CocktailList = () => {
         {cocktails.map((item) => {
           return <Cocktail key={item.id} {...item}/>  
         })}
-      </div>   
+      </div>    
     </section>
   )
 }
